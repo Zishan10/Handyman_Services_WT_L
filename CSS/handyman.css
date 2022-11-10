@@ -1,0 +1,101 @@
+
+body {
+    background-color: rgba(203, 236, 247, 0.959);
+    font-family:"segoe ui"
+  
+  }
+  h1 {
+    text-align: center;
+    font-family:"segoe ui"
+  }
+
+  a:link, a:visited 
+  {
+    background-color: #58b4b4;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:"segoe ui"
+
+  }
+  a:hover, a:active 
+  {
+    background-color: rgb(11, 9, 153);
+  }
+  .flexcentre
+  {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+  }
+  #card{
+    text-align: left;
+    background-color:rgb(165, 224, 217);
+    width: 30rem;
+    padding: 1.5rem ;
+    border-left: 10px solid #06103b;
+    border-right: 10px solid #06103b;
+    font-family:"segoe ui";
+    
+  }
+
+  #card_Sub{
+    background-color: #abbebe;
+    width: 30rem;
+    margin-left: 349px;
+    border-left: 10px solid #0498ff;
+    border-right: 10px solid #0498ff;
+    font-family:"segoe ui";
+  }
+
+ .button
+ {
+   text-align: center;
+   font-family:"segoe ui"
+ }
+
+.input_h2{
+  margin-left: 503px;
+  font-family:"segoe ui";
+  font-size: medium;
+}
+
+input[type=submit] {
+  width: 17%;
+  background-color: #0dc5c5	;
+  color: white;
+  padding: 5px 10px;
+  margin: 1px 0;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  
+  background-color: #0b2b55	;
+  color: white;
+ 
+}
+
+#box
+{
+ 
+    width: 1680px;
+    border: 15px solid rgb(40, 89, 112);
+    padding: 40px;
+    margin: 40px;
+    align-items: center;
+ 
+}
+   .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+  }

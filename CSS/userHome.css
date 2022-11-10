@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(211, 248, 228);
+    margin: 40px;
+  
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size:20px;
+    
+  }
+  
+  h2{
+    text-align: center;
+  }
+  a:link, a:visited 
+    {
+      background-color: #2bb53b;
+      color: white;
+      padding: 14px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-family: 'Segoe UI';
+      font-size:medium;
+    }
+    
+    a:hover, a:active 
+    {
+      background-color: rgb(37, 122, 31);
+    }
+    #center{
+        text-align:center;
+        font-family:'Segoe UI';
+    }
+
+    textarea{
+    font-family: 'Trebuchet MS';
+    font-size: medium;
+    }
+   
+    input[type=text], select 
+  {
+    width: 10%;
+    padding: 8px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+      font-size:medium;
+  }
+  input[type=password], select {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 30%;
+    background-color: #2bb01e	;
+    color: white;
+    padding: 14px 20px;
+    margin: 1px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+   
+  }
+  input[type=submit]:hover 
+  {
+    background-color: rgb(37, 122, 31);
+}
+
+p{
+  font-size: small;
+  color:  red;
+
+ }
+
+
+
+#margin
+   {
+    margin-top: 20px;   
+    background-color: rgb(182, 243, 190);
+    margin-left: 210px;
+    margin-right:900px;
+    text-align: center;
+    margin-block-start: center;
+   }
+  
+   #box
+{
+ 
+    width: 1630px;
+    border: 15px solid green;
+    padding: 40px;
+    margin: 40px;
+    align-items: center;
+ 
+}
+   .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+  }

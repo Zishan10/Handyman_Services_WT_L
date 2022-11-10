@@ -1,0 +1,75 @@
+body {
+    opacity: 0.7;
+     background-color: rgb(167, 227, 227);
+     margin: 40px;
+     
+   }
+
+   #basicInfo
+   {   
+       font-family: 'Lucida Sans';
+       color: black;
+       font-size: 20px;
+       text-align: center;
+       background-color: rgb(1, 14, 17);
+    
+          
+   }
+   #margin
+   {
+    margin-top: 20px;   
+    background-color: rgb(153, 203, 218);
+    margin-left: 140px;
+    margin-right: 140px;
+   }
+  
+   #comment
+   {
+    background-color: rgb(101, 142, 155);
+    font-family: 'Segoe UI';
+    color: rgb(4, 4, 19);
+   }
+
+
+   #commentBox
+   {
+    background-color: rgb(2, 20, 26);
+    color: rgb(4, 4, 24);
+    font-family: 'Segoe UI';
+    font-size: 20px;
+   }
+
+   #rating
+   {
+    background-color: rgb(13, 36, 44);
+    color: rgb(229, 229, 253);
+    font-family: 'Segoe UI';
+    font-size: 20px;
+   }
+   #commentBox:hover {
+    background-color: rgb(191, 234, 241);
+  }
+  input[type="radio"]
+  {
+    
+    height: 25px;
+    width: 25px;
+    background: #3CE75B;
+   
+  }
+
+  #PostButton
+  {
+    background-color: rgb(7, 31, 11);
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI';
+    font-size: 20px;
+  }
+  #PostButton:hover{
+      background-color: #3CE75B;
+      color: black;
+
+  }
+
+
+    
